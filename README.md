@@ -28,6 +28,7 @@ cirrhosis-prediction/
 ├── requirements.txt
 ├── README.md
 └── .gitignore 
+```
 
 ## Features
 - Multiple model implementations (Random Forest, XGBoost, SVM, LSTM)
