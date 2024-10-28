@@ -3,6 +3,31 @@
 ## Overview
 This project implements various machine learning models to predict cirrhosis disease progression based on patient medical data. The models include Random Forest, XGBoost, Support Vector Machines (SVM), and Long Short-Term Memory (LSTM) networks.
 
+## Project Structure
+cirrhosis-prediction/
+│
+├── data/
+│   └── raw/
+│       └── cirrhosis_data.csv
+│
+├── src/
+│   ├── data/
+│   │   ├── __init__.py
+│   │   └── data_loader.py
+│   ├── features/
+│   │   ├── __init__.py
+│   │   └── feature_engineering.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   └── models.py
+│   └── visualization/
+│       ├── __init__.py
+│       └── visualize.py
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
+
 ## Features
 - Multiple model implementations (Random Forest, XGBoost, SVM, LSTM)
 - Feature importance analysis
