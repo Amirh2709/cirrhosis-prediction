@@ -20,8 +20,8 @@ cd cirrhosis-prediction
 
 2. Create a virtual environment:
 ```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+python -m slenv
+source slenv/bin/activate  # On Windows: slenv\Scripts\activate
 ```
 
 3. Install dependencies:
@@ -88,9 +88,6 @@ Visualizer.plot_feature_importance(features, importances)
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contact
 Amirhossein Saberi - amir.saberi2709@gmail.com
