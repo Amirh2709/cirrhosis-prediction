@@ -30,6 +30,17 @@ cirrhosis-prediction/
 └── .gitignore 
 ```
 
+- `data/`: Raw and processed data
+- `models/`: Trained model files
+- `notebooks/`: Jupyter notebooks for exploration
+- `src/`: Source code
+  - `data/`: Data loading and processing
+  - `features/`: Feature engineering
+  - `models/`: Model training and prediction
+  - `visualization/`: Data visualization
+- `tests/`: Unit tests
+
+
 ## Features
 - Multiple model implementations (Random Forest, XGBoost, SVM, LSTM)
 - Feature importance analysis
@@ -97,17 +108,6 @@ Visualizer.plot_correlation_matrix(data)
 # Plot feature importance
 Visualizer.plot_feature_importance(features, importances)
 ```
-
-## Project Structure
-- `data/`: Raw and processed data
-- `models/`: Trained model files
-- `notebooks/`: Jupyter notebooks for exploration
-- `src/`: Source code
-  - `data/`: Data loading and processing
-  - `features/`: Feature engineering
-  - `models/`: Model training and prediction
-  - `visualization/`: Data visualization
-- `tests/`: Unit tests
 
 ## Contributing
 1. Fork the repository
